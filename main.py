@@ -1,3 +1,4 @@
-import child1.child
+import sys
 
-child1.child.child_hello()
+for path in sys.path:
+    print(path)
